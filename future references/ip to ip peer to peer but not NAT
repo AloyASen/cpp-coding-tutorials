@@ -1,0 +1,24 @@
+you can use the lib utp protocol available this has been tested and works perfect without any nat router block to enable nat 
+
+
+# https://github.com/bittorrent/libutp
+
+you can also look at stun and turn servers and ice servers 
+
+# https://github.com/coturn/coturn
+# https://github.com/jselbie/stunserver
+#
+all of them have a specific problem that they are required to address 
+
+
+there is a good resource in the go programming language to make nat a reality but lacks serious attention 
+
+
+https://zeroc.com/
+
+https://libp2p.io/
+way be i will attend the party {{ just kidding ... trying to take off from the point blank range }}
+
+
+
+also for later usages
