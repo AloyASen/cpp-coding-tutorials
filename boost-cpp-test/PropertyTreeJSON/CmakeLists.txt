@@ -1,0 +1,19 @@
+cmake_minimum_required (VERSION 2.6)
+project (Protocol)
+# The protocol number
+set (Protocol_VERSION_MAJOR 0) # this is currently in beta and is not for distro
+set (Protocol_VERSION_MINOR 001) # this is the development log that is passed by congress
+ 
+# configure a header file to pass some of the CMake settings
+# to the source code
+configure_file (
+  "${PROJECT_SOURCE_DIR}/ProtocolConfig.h.in"
+  "${PROJECT_BINARY_DIR}/ProtocolConfig.h"
+  )
+ 
+# add the binary tree to the search path for include files
+# so that we will find TutorialConfig.h
+
+include_directories("${PROJECT_BINARY_DIR}")
+
+add_executable(Protocol composer.cc)

@@ -1,0 +1,21 @@
+
+
+
+/*
+* currently in developmental releases 
+* this is to abide by the furthur changes that will be scheduled for the json protocol 
+* link to the current state of the art protocol as defined ml congress of adysenlab ::
+* 
+*
+*
+* this is an incremental test version of the protocol and is to be tested throughly 
+* before launching in beta ... you can also be a part of the growing wisdom community
+*
+*
+* the beta test releases will not meet with any major versioning scheme
+* it will be decided by the open source community congress whether to moderate a new 
+* major release cycle or to continue with the old one
+*
+*/
+#define Protocol_VERSION_MAJOR @Protocol_VERSION_MAJOR@
+#define Protocol_VERSION_MINOR @Protocol_VERSION_MINOR@
